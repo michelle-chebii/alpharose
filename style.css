@@ -1,0 +1,173 @@
+*{
+    margin: 0%;
+    padding: 0%;
+  }
+  body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+  }
+  .home-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .company-name {
+    color: black;
+    font-size: 30px;
+    margin-left: 20PX;
+    font-weight: bolder;
+  }
+ nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    float: left;
+  }
+  .headerdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gold;
+  }
+  .headerdiv a {
+    text-decoration: none;
+    color: #ababab;
+  } 
+  .navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+
+  .navbar li a {
+    display: block;
+    color: #747474;
+    text-align: center;
+    padding: 14px 16px;
+  }
+  .navbar li a:hover {
+    color: limegreen;
+  }
+  .active {
+    color: #00b39b;
+  }
+  .homepage{
+    background-image: url(pexels-energepic-com-27411-313691.jpg);
+    background-size: cover;
+    color: yellowgreen;
+    align-content: center;
+
+  }
+  h1{
+    font-size: 40px;
+    font-weight: bolder;
+    display: inline-block;
+    background-color: black;
+    border-radius: 0.2em;
+    background-size: contain;
+    color: #747474;
+    margin-top: 30px;
+  }
+  h4{
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: bolder;
+    background-color: black;
+    border-radius: 0.2em;
+    color: #747474;
+    display: inline-block;
+  }
+  .containers {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+  }
+  .item {
+    flex: 1;
+    margin-right: 15px;
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAswMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAAAQIDBAUH/8QALhAAAgIBAwMCBQMFAQAAAAAAAAECEQMEITESQVEFExQVYZGhInGBMrHh8PFC/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APh4AMBDAKAAHQAIYBQAA6CgJoKKodAQBdCoCQKoKAkKKaEBIDABAMQAADAAAYAA0iqAlIqikh0BFD6TRRH0gZuIKJp0hQGfSPpNEh0Bk4i6TZoloDJoKLoTQENE0aUTQEAyqE0BIDABAMAENANAVFFpExLQDXA2thFgSkXQIdgJDopJsVMBUDQ0HIE0OkVQUBm0Q0bMhoDOhUWxUBDRLRbRLQECKolgAAAAilwSNMC4loiJpEBosSRWwDCh0MASHRNlJgLp3G4mkV1A4gZ1sLsa9KozcaAhiLaIa3ATJY2yLATExslgSJjACaAdgBICQwNIloziy0wNLGjNMpcgarcqtghVBOSAkGQpFJ2BpB0aXZjFSNVtyA7JdsuSpWYpuwJdkOW5pkMZADZNg2JgFktgSwCxNiBgACABWNEgBaZSkRY0BrFlWZx5NUkwLjLYmTsXALcCVydWGDaMIwfVvwduJbIAcWtivZfdlS2pl9fUtmBjyv2FFQYskJRZl+pNALNszCVnU43+5nlxNAckmFhKO4kgGJjE2AhMTZIFgQABQGqg/BSxN9mBikNI6I6dvsaR0rfZoDmiUpPsdcdFL6msdCBxxbfJrFLwdkfT5Srpiy/l86qmBxpvZVsdMEug3x6B32NZaCUY3X4A87LkfCQQcvHJ2x0Vu2mU9LX9KA4lKT/qF3t8HV7L8MFp23ugMYyUp7cCypy2a/k6XpnGeyFPDOW+/wBgPNyYr2XJhLFJb0eotNJ26f2InhfTTQHlUyZJno5NO12MJ4K7AcTEdDxPwS8dAYgX0DA7seK/B0RxRS3/ALnNCe50wyIDfFi87Hbi00XWxy486OiGoruB249LDuvwdePR4W94v7HnYtW1/wCjqhrkud742A9SGhxWqtGr0GPZSlJfQ82HqFPackuKNvjk6fVf1sD0IelYW/1ZODT5ViaX6+f2PLXqT6r8/hGsfVN1vcV2sDvfpGmlGutP6sn5LpFFSgrf1Ob5rTuO2/ZF/M0la5/gDRek4OGo+eOCcvpmFRaUV+5MfWEm01yKfqqrwBmvTcXLYsvpmNK1TJl6rF7WjLJ6lFp1LevCAiWhxx5Vdjjy6WFt7dK7lZc8XzKUmu7/AMGEtSo+PsBlPBDjk58mnj4Ru9WpR3+9GcsylugOSenj/qOfJgS/4dk8i8/g58kvIHL7a8AW5KwA5Is1jM50y0wOqOSi1mZyJj6gOtZ9zRalnApB1sD0Vqmivi2eb1vyHW/IHp/GPyD1kq5PNeQayAenHWPyU9Wzy/d8C91+QPU+LYnqpPa6PNWV+R+79QO/4hiefucHuD90Ds96T70hPLfdnG5p9w60B1vK0qvbwS8z80c/uClMDd5bRnKZk5kuYF9QGXUAGSKQAA7BsAAVjeyQAAWFiAAAAAVu0MAALHYAAAAAMVjAAthbAAAVgACAAA//2Q==);
+    padding: 5px;
+    margin-left: 10px;
+  }
+  .card-image {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+  }
+  h3 {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  footer {
+    background-color: black;
+    color: gold;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 40vh;
+  }
+  .smallerheadings{
+    font-size: 20px;
+    color: gold;
+  }
+  .service-page{
+    background: url(pexels-pixabay-276514.jpg);
+    background-size: cover;
+  }
+  .service-item{
+    background-color: black;
+    color: limegreen;
+    margin-top: 20px;
+    max height: 50px;
+    max width: 50px;
+  }
+  .container {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.left {
+    margin-left: 10%;
+}
+
+.right {
+    margin-left: auto;
+    margin-right: 10%;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    margin-bottom: 0;
+}
+h2 {
+  margin-top: 0;
+}
