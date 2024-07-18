@@ -171,3 +171,62 @@ p {
 h2 {
   margin-top: 0;
 }
+
+.contact-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 50vw;
+  text-align: center;
+  margin-top: 10vh;
+}
+
+h5 {
+  margin-top: 10px;
+  font-size: 20px;
+  color: limegreen;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+  color: gold;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 99%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  background-color: gold;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: limegreen;
+}
+
+#formResponse {
+  margin-top: 10px;
+  color: red;
+}
+.contact-page { 
+  background: url(pawel-czerwinski--0xCCPIbl3M-unsplash.jpg);
+  background-size: cover;
+}
+.card-image { 
+  margin-bottom: 10px;
+  size: 20px;
+  display: inline;
+  justify-content: center;
+  align-content: center;
+}
